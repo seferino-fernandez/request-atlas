@@ -1,7 +1,7 @@
 {
-  "productName": "tauriv2-vue-desktop-starter",
+  "productName": "request-atlas",
   "version": "0.0.0",
-  "identifier": "com.github.tauriv2-vue-desktop-starter",
+  "identifier": "com.github.request-atlas",
   "build": {
     "beforeDevCommand": "bun run dev",
     "devUrl": "http://localhost:1420",
@@ -14,7 +14,7 @@
       {
         "fullscreen": false,
         "resizable": true,
-        "title": "tauriv2-vue-desktop-starter",
+        "title": "request-atlas",
         "center": true,
         "width": 1000,
         "height": 800,

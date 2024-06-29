@@ -2,5 +2,5 @@
 #![cfg_attr(not(debug_assertions), windows_subsystem = "windows")]
 
 fn main() {
-    tauriv2_vue_desktop_starter_lib::run()
+    request_atlas_lib::run()
 }

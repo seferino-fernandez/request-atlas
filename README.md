@@ -1,4 +1,4 @@
-# tauriv2-vue-desktop-starter
+# request-atlas
 
 A desktop application starter using the libraries and technologies:
 
@@ -20,10 +20,6 @@ A desktop application starter using the libraries and technologies:
 ## Prerequisites
 
 Follow [Tauri's prerequisites guide](https://v2.tauri.app/start/prerequisites/) to setup your development environment.
-
-Then rename all instances of `tauriv2-vue-desktop-starter` and `tauriv2_vue_desktop_starter` to your app name.
-
-If you want to replace the package manager update the build configuration in [tauri.conf.json](./src-tauri/tauri.conf.json)
 
 ## Installation
 
@@ -47,7 +43,7 @@ Then update the `supportedLanguages` function in [lib/config.ts](./src/lib/confi
 
 Tauri Store Plugin stores `settings.json` at:
 
-**macOS**: `~/Library/Application Support/com.github.tauriv2-vue-desktop-starter`
+**macOS**: `~/Library/Application Support/com.github.request-atlas`
 
 ## Deployment
 

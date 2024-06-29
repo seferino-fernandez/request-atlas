@@ -2493,6 +2493,18 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "7a66a03ae7c801facd77a29370b4faec201768915ac14a721ba36f20bc9c209b"
 
 [[package]]
+name = "request-atlas"
+version = "0.0.0"
+dependencies = [
+ "serde_json",
+ "tauri",
+ "tauri-build",
+ "tauri-plugin-shell",
+ "tauri-plugin-store",
+ "tauri-plugin-window-state",
+]
+
+[[package]]
 name = "reqwest"
 version = "0.12.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -3304,18 +3316,6 @@ checksum = "5993dc129e544393574288923d1ec447c857f3f644187f4fbf7d9a875fbfc4fb"
 dependencies = [
  "embed-resource",
  "toml 0.7.8",
-]
-
-[[package]]
-name = "tauriv2-vue-desktop-starter"
-version = "0.0.0"
-dependencies = [
- "serde_json",
- "tauri",
- "tauri-build",
- "tauri-plugin-shell",
- "tauri-plugin-store",
- "tauri-plugin-window-state",
 ]
 
 [[package]]
