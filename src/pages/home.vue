@@ -1,13 +1,15 @@
 <script setup lang="ts">
-import { useI18n } from 'vue-i18n'
-
-const { t } = useI18n({ useScope: 'global' })
+import RequestHeader from '@/components/RequestHeader.vue'
+import RequestBodyBuilder from '@/components/RequestBodyBuilder.vue'
+import ResponseContainer from '@/components/ResponseContainer.vue'
 </script>
 
 <template>
-  <div class="container mx-auto flex flex-col">
-    <h1 class="text-4xl font-bold">
-      {{ t('home.label') }}
-    </h1>
+  <div>
+    <RequestHeader />
+    <div class="md:grid grid-flow-col justify-stretch">
+      <RequestBodyBuilder />
+      <ResponseContainer />
+    </div>
   </div>
 </template>

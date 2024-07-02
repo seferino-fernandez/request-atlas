@@ -14,15 +14,18 @@
     "typecheck": "vue-tsc --noEmit"
   },
   "dependencies": {
+    "@codemirror/lang-json": "^6.0.1",
     "@tauri-apps/api": "^2.0.0-beta.13",
     "@tauri-apps/plugin-http": "^2.0.0-beta.6",
     "@tauri-apps/plugin-shell": "^2.0.0-beta.6",
     "@tauri-apps/plugin-store": "^2.0.0-beta.5",
     "@vueuse/core": "^10.11.0",
     "class-variance-authority": "^0.7.0",
+    "codemirror": "^6.0.1",
     "lucide-vue-next": "^0.399.0",
     "pinia": "^2.1.7",
     "radix-vue": "^1.8.5",
+    "ufo": "^1.5.3",
     "vue": "^3.4.31",
     "vue-i18n": "^9.13.1",
     "vue-router": "^4.4.0"

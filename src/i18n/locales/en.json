@@ -14,5 +14,33 @@
       "light": "Light",
       "dark": "Dark"
     }
+  },
+  "environment": {
+    "search": "Search environment...",
+    "noEnvironmentFound": "No environment found.",
+    "environments": "Environments",
+    "createEnvironment": "Create Environment",
+    "createEnvironmentDescription": "Add a new environment to manage your configurations.",
+    "environmentName": "Environment name",
+    "newEnvironment": "New Environment",
+    "cancel": "Cancel",
+    "continue": "Continue"
+  },
+  "request": {
+    "params": "Params",
+    "auth": "Auth",
+    "headers": "Headers",
+    "body": "Body",
+    "copyAs": "Copy as...",
+    "curl": "cURL"
+  },
+  "code": {
+    "curl": "cURL"
+  },
+  "response": {
+    "pretty": "Pretty",
+    "raw": "Raw",
+    "headers": "Headers",
+    "body": "Body"
   }
 }

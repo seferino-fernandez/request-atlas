@@ -3,3 +3,8 @@ export interface Response<T> {
   data?: T
   error?: string
 }
+
+export interface ResponseData {
+  body: string
+  headers: any
+}

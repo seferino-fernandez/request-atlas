@@ -1,16 +1,16 @@
 <script setup lang="ts">
-import AppTopbar from '@/components/AppTopbar.vue'
+import WindowTopbar from '@/components/WindowTopbar.vue'
 import AppSidebar from '@/components/AppSidebar.vue'
 import { TooltipProvider } from '@/components/ui/tooltip'
 </script>
 
 <template>
   <div class="w-full h-full">
-    <AppTopbar />
+    <WindowTopbar />
     <TooltipProvider>
       <div class="flex">
         <AppSidebar />
-        <div class="grow h-full w-full mt-8 ml-16">
+        <div class="grow h-screen w-full ml-14 bg-muted/40 rounded-tl-lg">
           <router-view />
         </div>
       </div>
