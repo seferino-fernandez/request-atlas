@@ -2,7 +2,8 @@
 import { Icon } from '@iconify/vue'
 import { useI18n } from 'vue-i18n'
 
-import ResponseEditor from '@/components/ResponseEditor.vue'
+import PrettyResponseView from '@/components/response/PrettyResponseView.vue'
+import ResponseHeadersView from '@/components/response/ResponseHeadersView.vue'
 import { Button } from '@/components/ui/button'
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuLabel, DropdownMenuSeparator, DropdownMenuTrigger } from '@/components/ui/dropdown-menu'
 import {
@@ -54,10 +55,12 @@ const { t } = useI18n()
         </div>
       </div>
       <TabsContent value="pretty">
-        <ResponseEditor />
+        <PrettyResponseView />
       </TabsContent>
       <TabsContent value="raw" />
-      <TabsContent value="headers" />
+      <TabsContent value="headers">
+        <ResponseHeadersView />
+      </TabsContent>
       <TabsContent value="body" />
     </Tabs>
   </div>

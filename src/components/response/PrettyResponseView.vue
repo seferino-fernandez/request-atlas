@@ -15,7 +15,7 @@ const themeConf = new Compartment()
 
 const editorContainer = ref<EditorView | null>(null)
 
-const data = ref()
+const data = ref(responseStore.body)
 
 responseStore.$subscribe(() => {
   editorContainer.value?.dispatch({

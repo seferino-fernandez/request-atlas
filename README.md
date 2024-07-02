@@ -25,7 +25,7 @@ Follow [Tauri's prerequisites guide](https://v2.tauri.app/start/prerequisites/) 
 
 Install dependencies with `bun install`
 
-## Development`
+## Development
 
 For **Desktop** development, run: `bun tauri dev`
 

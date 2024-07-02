@@ -1,14 +1,14 @@
 <script setup lang="ts">
 import RequestHeader from '@/components/RequestHeader.vue'
-import RequestBodyBuilder from '@/components/RequestBodyBuilder.vue'
-import ResponseContainer from '@/components/ResponseContainer.vue'
+import RequestContainer from '@/components/request/RequestContainer.vue'
+import ResponseContainer from '@/components/response/ResponseContainer.vue'
 </script>
 
 <template>
   <div>
     <RequestHeader />
     <div class="md:grid grid-flow-col justify-stretch">
-      <RequestBodyBuilder />
+      <RequestContainer />
       <ResponseContainer />
     </div>
   </div>

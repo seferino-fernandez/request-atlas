@@ -67,6 +67,7 @@ export const requestAtlasTheme = EditorView.theme(
     '.cm-gutters': {
       backgroundColor: color.background,
       color: color.mutedForeground,
+      borderRadius: '0.5rem',
       border: 'none',
     },
 
