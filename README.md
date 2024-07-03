@@ -1,4 +1,4 @@
-# request-atlas
+# Request Atlas
 
 A desktop application starter using the libraries and technologies:
 

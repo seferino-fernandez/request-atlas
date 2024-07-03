@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { computed, onMounted, ref } from 'vue'
+import { computed, ref } from 'vue'
 import { useResponseStore } from '@/stores/response'
 
 import type { DataListItem } from '@/components/common/DataList.vue'
@@ -14,7 +14,7 @@ const headersList = computed(() => {
 })
 
 responseStore.$subscribe(async (_mutation, state) => {
-  if (state.params) {
+  if (state.headers) {
     responseHeaders.value = state.headers
   }
 }, { detached: true })

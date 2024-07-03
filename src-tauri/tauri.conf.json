@@ -1,5 +1,5 @@
 {
-  "productName": "request-atlas",
+  "productName": "Request Atlas",
   "version": "0.0.0",
   "identifier": "com.github.request-atlas",
   "build": {
@@ -14,7 +14,7 @@
       {
         "fullscreen": false,
         "resizable": true,
-        "title": "request-atlas",
+        "title": "Request Atlas",
         "center": true,
         "width": 1000,
         "height": 800,
