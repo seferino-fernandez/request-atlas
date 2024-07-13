@@ -3,9 +3,9 @@
   "version": "0.0.0",
   "identifier": "com.github.request-atlas",
   "build": {
-    "beforeDevCommand": "bun run dev",
+    "beforeDevCommand": "pnpm vite:dev",
     "devUrl": "http://localhost:1420",
-    "beforeBuildCommand": "bun run build",
+    "beforeBuildCommand": "pnpm vite:build",
     "frontendDist": "../dist"
   },
   "app": {
@@ -28,6 +28,9 @@
     }
   },
   "bundle": {
+    "macOS": {
+      "signingIdentity": "-"
+    },
     "active": true,
     "targets": "all",
     "icon": [

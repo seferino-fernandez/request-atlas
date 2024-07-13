@@ -23,11 +23,11 @@ Follow [Tauri's prerequisites guide](https://v2.tauri.app/start/prerequisites/) 
 
 ## Installation
 
-Install dependencies with `bun install`
+Install dependencies with `pnpm install`
 
 ## Development
 
-For **Desktop** development, run: `bun tauri dev`
+For **Desktop** development, run: `pnpm tauri dev`
 
 ### Internationalization (i18n)
 
@@ -52,5 +52,5 @@ Tauri Store Plugin stores `settings.json` at:
 To build a binary, run:
 
 ```bash
-bun tauri build
+pnpm tauri build
 ```
